@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/Assets/css/style.css" />
+
+  <title>LandingPage</title>
+</head>
+
+
+<body>
+
+  <input type="checkbox" id="close-menu" class="close-menu" aria-label="Close Menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu black-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked= false;">
+        <a href="#home"> LOGO </a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked= false;">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#top3">top 3</a></li>
+          <li><a href="#grid-one">infográfico</a></li>
+          <li><a href="#gallery">galeria</a></li>
+          <li><a href="#pricing">preços</a></li>
+          <li><a href="#contact">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="intro" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>
+         Titulo Bonito
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic dolorum minima nemo neque libero eveniet tempore impedit similique labore? Vitae id earum nemo error illo perspiciatis voluptatibus, fugit explicabo!
+        </p>
+        p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic dolorum minima nemo neque libero eveniet tempore impedit similique labore? Vitae id earum nemo error illo perspiciatis voluptatibus, fugit explicabo!
+        </p>
+      </div>
+
+      <div class="intro-img">
+        <img src="Assets/img/no-image-icon-23485.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section id="top3" class="brown-bg section ">
+    <div class="main-content top3-content grid-gallery ">
+      <h2>Top 3</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+        
+      </p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2VsohB1Rf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+  </section>
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class=" main-content grid-one-content">
+      <h2 class="grid-main-heading">Calvície Jovem</h2>
+      <p class="grid-description">A calvície jovem, também conhecida como alopecia androgenética, é um problema capilar
+        comum que afeta homens e mulheres em idades mais jovens</p>
+
+        <div class="grid">
+          <article>
+            <h3>Causas</h3>
+            <img src="Assets/img/hair-loss.png" height="260" width="260">
+          
+        <p>
+         Hereditariedade: A genética desempenha um papel importante na calvicíe jovem.Se houver histórico de calvície na família, há maior probabilidade de desenvolvê-la.
+        </p>
+        <p>
+          Hormônios masculinos: Os hormônios androgênios, como a testosterona, podem causar o afinamento dos fios capilares e a miniaturização dos folículos pilosos.
+         </p>
+      </article>
+      <article>
+        <h3>Sintomas</h3>
+        <img src="Assets/img/noun-hair-loss-2758516.svg" height="260" width="260">
+        <p>
+          Perda de cabelo gradual na região frontal, coroa ou nas áreas temporais.
+         </p>
+         <p>
+          Afinamento dos fios capilares.
+         </p>
+         <p>
+          Pode começar com a formação de entradas no couro cabeludo masculino.
+         </p>
+      </article>
+      <article>
+
+        <img src="Assets/img/grafico-de-barras.png"  alt="" class="grafico"height="260" width="260">
+        
+        <p style="margin-top: 7rem;">
+          42 milhões de homens no Brasil possuem calvície.Entre eles, 8 milhões estão na faixa dos 20 a 30 anos.
+        </p>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one brown-bg section">
+    <div class=" main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Descubra a nossa incrível galeria de imagens que revela os resultados impressionantes do nosso produto revolucionário para o crescimento capilar.Testemunhe a transformação surpreendente, antes e depois, <strong>em apenas 6 meses de uso.</strong> </p>
+
+      <div class="grid grid-gallery">
+        <figure class="gallery-img">
+          <img src="Assets/img/antesdepois/foto1-antes.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </figure>
+
+        <div class="gallery-img">
+          <img src="Assets/img/antesdepois/foto1-depois.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </div>
+        <div class="gallery-img">
+          <img src="Assets/img/antesdepois/foto2-antes.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </div>
+        <div class="gallery-img">
+          <img src="Assets/img/antesdepois/foto2-depois.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </div>
+        <div class="gallery-img">
+          <img src="Assets/img/antesdepois/foto3-antes.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </div>
+        <div class="gallery-img">
+          <img src="Assets/img/antesdepois/foto3-depois.png" height="360" width="360" alt="random imagem"
+            loading="lazy">
+        </div>
+
+      </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Preços</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+        architecto ad ab impedit enim provident nam illo, nostrum rerum atque
+        odio sequi voluptatibus consectetur quam pariatur amet numquam eveniet
+        esse?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+        distinctio quas harum nostrum veritatis fugit? Alias in, odit,
+        consequatur ut dolore quia ea sit laboriosam, ipsam mollitia omnis
+        possimus. Impedit?
+      </p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de Preços</caption>
+          <thead>
+            <tr>
+              <th> Titulo 1 </th>
+              <th> Titulo 2 </th>
+              <th> Titulo 3 </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Conteudo 1</td>
+              <td>Conteudo 2</td>
+              <td>Conteudo 3</td>
+            </tr>
+            <tr>
+              <td>Conteudo 1</td>
+              <td>Conteudo 2</td>
+              <td>Conteudo 3</td>
+            </tr>
+            <tr>
+              <td>Conteudo 1</td>
+              <td>Conteudo 2</td>
+              <td>Conteudo 3</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr></tr>
+            <td colspan="3">Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>
+          Contato
+        </h2>
+        <p>
+
+          bla bla bla
+        </p>
+      </div>
+
+      <div class="intro-img">
+        <img src="https://source.unsplash.com/random/?r=7/" height="360" width="360" alt="random imagem" loading="lazy">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact Me</legend>
+          <div class="form-group">
+            <label for="first-name"> First Name</label>
+            <input type="text" placeholder="name" name="first-name" id="first-name">
+          </div>
+          <div class="form-group">
+            <label for="last-name"> Last Name</label>
+            <input type="text" placeholder="last name" name="last-name" id="last-name">
+          </div>
+          <div class="form-group">
+            <label for="email"> Email</label>
+            <input type="email" placeholder="email" name="email" id="email">
+          </div>
+          <div class="form-group full-width">
+            <label for="message"> Message</label>
+            <textarea name="message" placeholder="message" id="message" cols="30" rows="10">
+                  </textarea>
+            <div class="form-group full-width">
+              <button type="submit">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class=" footer white-bg">
+    <p><a rel="nofollow" href="#"> 	&#169 Calvície- 2023 </a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
